@@ -1,0 +1,21 @@
+2018-08-25T17:03:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-08-25T17:51:52+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-08-25T17:52:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-08-25T17:55:05+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-08-25T17:55:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-08-25T18:22:04+00:00 CRITICAL Uncaught Error: Call to undefined function x_get_view() in C:\www\projeto-test\wp-content\plugins\woocommerce\templates\content-single-product.php:93
+Stack trace:
+#0 C:\www\projeto-test\wp-includes\template.php(690): require()
+#1 C:\www\projeto-test\wp-content\plugins\woocommerce\includes\wc-core-functions.php(179): load_template('C:\\www\\projeto-...', false)
+#2 C:\www\projeto-test\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 C:\www\projeto-test\wp-includes\template-loader.php(74): include('C:\\www\\projeto-...')
+#4 C:\www\projeto-test\wp-blog-header.php(19): require_once('C:\\www\\projeto-...')
+#5 C:\www\projeto-test\index.php(17): require('C:\\www\\projeto-...')
+#6 {main}
+  thrown
+
